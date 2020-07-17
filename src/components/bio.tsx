@@ -6,13 +6,13 @@
  */
 
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, PageProps } from "gatsby"
 import Image from "gatsby-image"
 import styled from "styled-components"
 
 import { rhythm } from "../utils/typography"
 
-function Bio() {
+export default function Bio(props: PageProps) {
   return (
     <StaticQuery
       query={bioQuery}
@@ -71,5 +71,3 @@ const bioQuery = graphql`
 const Container = styled.div`
   display: flex;
 `
-
-export default Bio

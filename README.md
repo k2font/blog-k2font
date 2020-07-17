@@ -8,7 +8,7 @@
   Gatsby's personal blog starter
 </h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f9b2924d-21e1-45cb-9bae-830ecbb36703/deploy-status)](https://app.netlify.com/sites/kind-albattani-60913d/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9b2924d-21e1-45cb-9bae-830ecbb36703/deploy-status)](https://app.netlify.com/sites/k2font/deploys)
 
 <img alt="screesnhot" src="./screenshot.png">
 

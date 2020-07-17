@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `k2fontのブログ`,
+    title: `k2font.dev`,
     author: `k2font`,
     description: `k2fontのブログです。`,
-    siteUrl: `https://google.com`,
+    siteUrl: `https://k2font.netlify.app/blog/`,
     social: {
       twitter: `k2font`,
     },
@@ -72,7 +72,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `k2fontのブログ`,
+        name: `k2font.dev`,
         short_name: `k2font`,
         start_url: `/`,
         background_color: `#ffffff`,
