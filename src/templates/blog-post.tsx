@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
 export default function BlogPostTemplate(props: PageProps) {
-  const post = props.data.mdx
+  const post: Object = props.data.mdx
   const siteTitle = props.data.site.siteMetadata.title
   const { previous, next } = props.pageContext
 
